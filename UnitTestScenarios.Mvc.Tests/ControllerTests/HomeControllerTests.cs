@@ -3,7 +3,7 @@ using Microsoft.Extensions.Logging;
 using Moq;
 using UnitTestScenarios.Mvc.Controllers;
 
-namespace UnitTestScenarios.Mvc.Tests
+namespace UnitTestScenarios.Mvc.Tests.ControllerTests
 {
     [TestFixture]
     public class HomeControllerTests
