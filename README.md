@@ -6,4 +6,4 @@ Fundamentals
 
 Mvc
  - In Mvc project, basic approach of Repository and Unit of Work pattern implemented just to create a base to test.
- - In Mvc.Tests projects, you may check how to test repository, controller or service classes for CRUD methods.
+ - In Mvc.Tests projects, you may check how to test repository, controller or service classes for methods.
