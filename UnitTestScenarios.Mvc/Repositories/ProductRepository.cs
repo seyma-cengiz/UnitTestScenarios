@@ -31,7 +31,7 @@ namespace UnitTestScenarios.Mvc.Repositories
             return await _products.Where(x => !x.IsDeleted).ToListAsync();
         }
 
-        public async Task<Product> GetAsync(long id)
+        public async Task<Product> GetAsync(int id)
         {
             return await _products.FirstOrDefaultAsync(t => t.Id == id && !t.IsDeleted);
         }
