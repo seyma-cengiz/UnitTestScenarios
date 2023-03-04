@@ -18,7 +18,7 @@ namespace UnitTestScenarios.Mvc.Services
             return await _repository.GetAllAsync();
         }
 
-        public async Task<Product> GetAsync(long id)
+        public async Task<Product> GetAsync(int id)
         {
             return await _repository.GetAsync(id);
         }

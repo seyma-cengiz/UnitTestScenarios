@@ -6,7 +6,7 @@ namespace UnitTestScenarios.Mvc.Services
     {
         Task<List<Product>> GetAllAsync();
 
-        Task<Product> GetAsync(long id);
+        Task<Product> GetAsync(int id);
 
         Product Add(Product entity);
 
